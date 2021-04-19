@@ -43,6 +43,10 @@ MainWindow::~MainWindow()
 
 void MainWindow::fill_list(QString StrTemp , QStringList Lexsema , int count)
 {
+    if(1)
+    {
+        int z = 4;
+    }
     List* pTemp = pHead;
     List * pNew = new List();
 
