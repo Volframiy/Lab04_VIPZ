@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SortWindow</class>
+ <widget class="QDialog" name="SortWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>208</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background : rgb(255, 71, 9)</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>10</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../lab04_small.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortSurnameButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>80</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background : rgb(255, 255, 255) ; 
+color : rgb(255, 71, 9);
+border-radius : 15;
+
+</string>
+   </property>
+   <property name="text">
+    <string>By Surname</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortBookameButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>90</y>
+     <width>80</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background : rgb(255, 255, 255) ; 
+color : rgb(255, 71, 9);
+border-radius : 15;
+
+</string>
+   </property>
+   <property name="text">
+    <string>By Bookname</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortNameButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>80</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background : rgb(255, 255, 255) ; 
+color : rgb(255, 71, 9);
+border-radius : 15;
+
+</string>
+   </property>
+   <property name="text">
+    <string>By Name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortYearButton">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>90</y>
+     <width>80</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background : rgb(255, 255, 255) ; 
+color : rgb(255, 71, 9);
+border-radius : 15;
+
+</string>
+   </property>
+   <property name="text">
+    <string>By Year</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortPagesButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>90</y>
+     <width>80</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background : rgb(255, 255, 255) ; 
+color : rgb(255, 71, 9);
+border-radius : 15;
+
+</string>
+   </property>
+   <property name="text">
+    <string>By Pages</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SortPriceButton">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>90</y>
+     <width>80</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background : rgb(255, 255, 255) ; 
+color : rgb(255, 71, 9);
+border-radius : 15;
+
+</string>
+   </property>
+   <property name="text">
+    <string>By Price</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ExitButton">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>170</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background : rgb(255, 255, 255) ; 
+color : rgb(255, 71, 9);
+border-radius : 15;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

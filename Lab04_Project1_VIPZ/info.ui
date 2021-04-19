@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Info</class>
+ <widget class="QDialog" name="Info">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>379</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background : rgb(255, 71, 9)</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>10</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../lab04_small.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>361</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background : rgb(145, 115, 14);
+
+</string>
+   </property>
+   <property name="plainText">
+    <string>Hello
+
+It is library special for lab04 from VIPZ and her main fuction it is  to review the lists of books and add new and delete books whose authors' names begin with A B S D. You can also sort the list of books by the number of pages for the convenience of users.
+
+There are some rules for entering information about the book you want to add.
+
+1)Numbers cannot be used for names and letters cannot be used for other fields.
+
+2)The maximum length of a proper name is 25 characters.
+
+3)Fields cannot be empty or negative when entering numbers.
+
+If you have additional questions, you can contact us via e-mail: superpiska228@gmail.com
+
+Enjoy using the program.</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
