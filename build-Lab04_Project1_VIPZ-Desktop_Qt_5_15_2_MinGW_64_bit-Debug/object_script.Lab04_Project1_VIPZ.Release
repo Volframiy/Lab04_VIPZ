@@ -1,0 +1,12 @@
+release/foradd.o
+release/fordelete.o
+release/info.o
+release/list.o
+release/main.o
+release/mainwindow.o
+release/sortwindow.o
+release/moc_foradd.o
+release/moc_fordelete.o
+release/moc_info.o
+release/moc_mainwindow.o
+release/moc_sortwindow.o
